@@ -112,7 +112,7 @@ public class AI : MonoBehaviour
 				}
             }
         }
-        GameManager.Instance.gameField[coords.Item1, coords.Item2].SetMarkByAI(this);
+        GameManager.Instance?.gameField[coords.Item1, coords.Item2].SetMarkByAI(this);
     }
 
 }
